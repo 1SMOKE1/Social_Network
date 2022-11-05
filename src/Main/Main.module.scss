@@ -1,0 +1,18 @@
+.main{
+  width: 100%;
+  background-image: url('../assets/bg_for_chat.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(50%);
+  grid-area: main;
+  & > ul > li{
+    margin-bottom: 10px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+  &_img{
+    width: 100%;
+  }
+}

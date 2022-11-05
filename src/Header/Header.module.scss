@@ -1,0 +1,19 @@
+@import '../vars';
+@import '../mixins';
+
+
+.header{
+  grid-area: head;
+  padding: 30px 15px;
+  background-color: $c1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  &_list{
+    display: flex;
+    & > li{
+      margin-right: 20px;
+
+    }
+  }
+}
